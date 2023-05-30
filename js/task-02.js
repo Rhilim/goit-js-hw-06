@@ -28,7 +28,6 @@ const ingredients = [
 
 
 
-
 // HTML містить порожній список ul#ingredients.
 
 // <ul id="ingredients"></ul>
