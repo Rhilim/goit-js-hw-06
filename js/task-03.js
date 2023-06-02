@@ -24,7 +24,8 @@ const images = [
 ];
 
 const galleryElement = document.querySelector(".gallery");
-galleryElement.style.cssText = 'display: flex; flex-direction: row; list-style: none; gap: 10px;';
+galleryElement.style.cssText =
+  "display: flex; flex-direction: row; list-style: none; gap: 10px;";
 
 const markup = images
   .map(
