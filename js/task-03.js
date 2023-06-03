@@ -27,9 +27,7 @@ const galleryElement = document.querySelector(".gallery");
 galleryElement.style.cssText =
   "display: flex; flex-direction: row; list-style: none; gap: 10px;";
 
-const markup = images
-  .map(
-    ({ url, alt }) =>
+const markup = images.map(({ url, alt }) =>
       `<li class='list-element'><img src="${url}" alt="${alt}" class="img"></li>`
   )
   .join("");
