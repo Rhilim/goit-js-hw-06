@@ -9,24 +9,20 @@ const ingredients = [
 
 const listMain = document.querySelector("#ingredients");
 
-const newArray = ingredients.map((element)=> {
-  const listEl = document.createElement("li");
-  listEl.textContent = element;
-  listEl.classList.add("item");
-  // console.log(listEl);
-}).join('');
+const newArray = ingredients
+  .map((element) => {
+    const listEl = document.createElement("li");
+    listEl.textContent = element;
+    listEl.classList.add("item");
+    // console.log(listEl);
+  })
+  .join("");
 
 console.log(newArray);
 
 listMain.append(newArray);
 
-
- 
 //  console.log(listMain);
-
-
-
-
 
 // HTML містить порожній список ul#ingredients.
 
